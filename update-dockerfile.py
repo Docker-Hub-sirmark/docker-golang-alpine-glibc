@@ -4,7 +4,7 @@ import os
 import sys
 
 golang_versions = [
-    "1.24",
+    "1.25",
 ]
 
 glibc_version = "2.34-r0"
