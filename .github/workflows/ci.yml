@@ -17,11 +17,11 @@ jobs:
       matrix:
         include:
 #VERSIONS
-          - name: 1.26-alpine-glibc2.44
-            context: 1.26/alpine-glibc
+          - name: 1.27-alpine-glibc2.44
+            context: 1.27/alpine-glibc
             platforms: linux/amd64,linux/arm64
             tags: |
-              1.26-alpine-glibc2.44
+              1.27-alpine-glibc2.44
 #VERSIONS
     name: ${{ matrix.name }}
     steps:
